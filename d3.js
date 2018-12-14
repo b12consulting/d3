@@ -7855,10 +7855,7 @@
       while (++i < n) {
         if (defined.call(this, d = data[i], i)) {
           points.push([ +fx.call(this, d, i), +fy.call(this, d, i) ]);
-        } else if (points.length) {
-          segment();
-          points = [];
-        }
+        } 
       }
       if (points.length) segment();
       return segments.length ? segments.join("") : null;
@@ -8126,11 +8123,7 @@
         if (defined.call(this, d = data[i], i)) {
           points0.push([ x = +fx0.call(this, d, i), y = +fy0.call(this, d, i) ]);
           points1.push([ +fx1.call(this, d, i), +fy1.call(this, d, i) ]);
-        } else if (points0.length) {
-          segment();
-          points0 = [];
-          points1 = [];
-        }
+        } 
       }
       if (points0.length) segment();
       return segments.length ? segments.join("") : null;
