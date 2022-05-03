@@ -58,7 +58,7 @@
     "d3-scale": "4",
     "d3-scale-chromatic": "3",
     "d3-selection": "3",
-    "d3-shape": "https://github.com/b12consulting/d3-shape",
+    "d3-shape": "https://github.com/b12consulting/d3-shape#line-area-sampling",
     "d3-time": "3",
     "d3-time-format": "4",
     "d3-timer": "3",
